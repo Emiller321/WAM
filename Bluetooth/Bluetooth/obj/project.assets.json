@@ -8,31 +8,35 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\eldmi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\sammy\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eldmi\\source\\repos\\Bluetooth\\Bluetooth\\Bluetooth.csproj",
+      "projectUniqueName": "C:\\Users\\sammy\\Source\\Repos\\Emiller321\\WAM\\Bluetooth\\Bluetooth\\Bluetooth.csproj",
       "projectName": "Bluetooth",
-      "projectPath": "C:\\Users\\eldmi\\source\\repos\\Bluetooth\\Bluetooth\\Bluetooth.csproj",
-      "packagesPath": "C:\\Users\\eldmi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eldmi\\source\\repos\\Bluetooth\\Bluetooth\\obj\\",
+      "projectPath": "C:\\Users\\sammy\\Source\\Repos\\Emiller321\\WAM\\Bluetooth\\Bluetooth\\Bluetooth.csproj",
+      "packagesPath": "C:\\Users\\sammy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sammy\\Source\\Repos\\Emiller321\\WAM\\Bluetooth\\Bluetooth\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\eldmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sammy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,15 +65,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
