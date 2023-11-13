@@ -1,90 +1,155 @@
-# Welcome to GitHub
+# Group 45 Senior Design Team Contract
 
-Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
+University of Cincinnati 
 
-## Repositories
+College of Education, Criminal Justice and Human Services 
 
-Right now, we’re in your first GitHub **repository**. A repository is like a folder or storage space for your project. Your project's repository contains all its files such as code, documentation, images, and more. It also tracks every change that you—or your collaborators—make to each file, so you can always go back to previous versions of your project if you make any mistakes.
+School of Information Technology 
 
-This repository contains three important files: The HTML code for your first website on GitHub, the CSS stylesheet that decorates your website with colors and fonts, and the **README** file. It also contains an image folder, with one image file.
+ 
 
-## Describe your project
+Eric Miller, Samuel Ishida, Dylan Leonard, Karthikeya Thota, Zongyu Xu 
+## Intent
 
-You are currently viewing your project's **README** file. **_README_** files are like cover pages or elevator pitches for your project. They are written in plain text or [Markdown language](https://guides.github.com/features/mastering-markdown/), and usually include a paragraph describing the project, directions on how to use it, who authored it, and more.
+The following contract was written and agreed upon by Eric Miller, Samuel Ishida, Dylan Leonard, Karthikeya Thota, Zongyu Xu 
 
-[Learn more about READMEs](https://help.github.com/en/articles/about-readmes)
+ 
 
-## Your first website
+The contract provides expectations, objectives, and results for developing the Multipoint Bluetooth application. 
 
-**GitHub Pages** is a free and easy way to create a website using the code that lives in your GitHub repositories. You can use GitHub Pages to build a portfolio of your work, create a personal website, or share a fun project that you coded with the world. GitHub Pages is automatically enabled in this repository, but when you create new repositories in the future, the steps to launch a GitHub Pages website will be slightly different.
+ 
 
-[Learn more about GitHub Pages](https://pages.github.com/)
+The contract is effective for all team members participating in the Senior Design Capstone class series in the 2023-2024 academic year.  
 
-## Rename this repository to publish your site
+## Project Summary
 
-We've already set-up a GitHub Pages website for you, based on your personal username. This repository is called `hello-world`, but you'll rename it to: `username.github.io`, to match your website's URL address. If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.
+This project is about having an application to be able to connect to multiple devices at the same time. Over time we would like our application to be powerful enough to be able to have multiple Bluetooth connections on devices and being able to control the bass or treble individually on those devices.  
 
-Let's get started! To update this repository’s name, click the `Settings` tab on this page. This will take you to your repository’s settings page. 
+## Problem Statement
 
-![repo-settings-image](https://user-images.githubusercontent.com/18093541/63130482-99e6ad80-bf88-11e9-99a1-d3cf1660b47e.png)
+The problem we are trying to solve is having the ability to connect to multiple Bluetooth devices at a base source for use as an audio controller.  There are currently ways to connect multiple Bluetooth 4.0 or newer devices using built-in multi-point connectivity, but this is limited to other Bluetooth 4.0 enabled devices and does not allow for individualized control of each audio output device.  The other issue with multiple Bluetooth audio output devices connected to one audio source is that there can be issues with audio output synchronization, as there can be various issues with data rates changing based on distance or the Bluetooth connection type.  Beyond general connectivity and audio controller functionality, there is also the concerns of secure Bluetooth connections at events where bad actors may attempt to attack the network operations. 
 
-Under the **Repository Name** heading, type: `username.github.io`, where username is your username on GitHub. Then click **Rename**—and that’s it. When you’re done, click your repository name or browser’s back button to return to this page.
+Currently the affected users are Apple iPhone owners where multi-point Bluetooth connection is only possible with Apple devices, DJs who are looking to have mobile operations with simple audio controls, and Bluetooth audio listeners who would like to connect to multiple devices for personal use either on the go with earbuds and headphones or within their residence using home theater systems. 
 
-<img width="1039" alt="rename_screenshot" src="https://user-images.githubusercontent.com/18093541/63129466-956cc580-bf85-11e9-92d8-b028dd483fa5.png">
+## Solution
 
-Once you click **Rename**, your website will automatically be published at: https://your-username.github.io/. The HTML file—called `index.html`—is rendered as the home page and you'll be making changes to this file in the next step.
+The solution to these problems would be the Wireless Audio Manager (WAM) which utilizes a web browser software to connect multiple Bluetooth devices, using Bluetooth Low Energy (BLE), and controls the audio outputs by detecting data rates and latency to synchronize all output devices.  WAM will also show each audio output device as an individual section with specific controls for that one speaker, including audio volume, input separation, and surround sound settings.  The Bluetooth connections will be secured by using NIST framework for BLE connections and implementing private device addressing for those connections. 
 
-Congratulations! You just launched your first GitHub Pages website. It's now live to share with the entire world
+## Contact Information
 
-## Making your first edit
-
-When you make any change to any file in your project, you’re making a **commit**. If you fix a typo, update a filename, or edit your code, you can add it to GitHub as a commit. Your commits represent your project’s entire history—and they’re all saved in your project’s repository.
-
-With each commit, you have the opportunity to write a **commit message**, a short, meaningful comment describing the change you’re making to a file. So you always know exactly what changed, no matter when you return to a commit.
-
-## Practice: Customize your first GitHub website by writing HTML code
-
-Want to edit the site you just published? Let’s practice commits by introducing yourself in your `index.html` file. Don’t worry about getting it right the first time—you can always build on your introduction later.
-
-Let’s start with this template:
-
-```
-<p>Hello World! I’m [username]. This is my website!</p>
-```
-
-To add your introduction, copy our template and click the edit pencil icon at the top right hand corner of the `index.html` file.
-
-<img width="997" alt="edit-this-file" src="https://user-images.githubusercontent.com/18093541/63131820-0794d880-bf8d-11e9-8b3d-c096355e9389.png">
+![image](https://github.com/Emiller321/WAM/assets/54557245/6ebeb034-d209-449a-b4e1-94c7191aa427)
 
 
-Delete this placeholder line:
+## Project Source
 
-```
-<p>Welcome to your first GitHub Pages website!</p>
-```
+This project was originally inspired by our shared passion for music.  To start from the beginning, our team was formed when we all met in the first lecture of our Senior Design class.  After listening to a few other group's pitches, we were all still looking for something different from any of their proposed projects or the sponsored projects, thus we were the final few who remained without a group and decided to get to know each other a bit.  Quickly we found out that there was a shared passion for music, and after throwing around a few ideas we ended up identifying a problem with Bluetooth audio devices.  It can be difficult to successfully connect multiple Bluetooth speakers to play a song simultaneously, and to go beyond that control the audio output on each individual device all from a single phone or computer.  We had thus defined the three main problems we have decided to solve and began discussing the requirements analysis immediately.  
 
-Then, paste the template to line 15 and fill in the blanks.
+## Project Objectives/Goals
 
-<img width="1032" alt="edit-githuboctocat-index" src="https://user-images.githubusercontent.com/18093541/63132339-c3a2d300-bf8e-11e9-8222-59c2702f6c42.png">
+### Main Goals/Objectives: 
+
+Connecting multiple Bluetooth devices through one source 
+
+Being able to individually control the audio inputs and outputs of each Bluetooth device connected 
+
+Syncing Bluetooth audio outputs to minimize latency 
+
+Securing the Bluetooth connections using NIST frameworks and Bluetooth Low Energy security protocols  
+
+### Subgoals/Objectives:
+
+Create individual audio controls for volume and surround sound settings 
+
+Adjust application for different environments(testing)  
+
+Creating plug-ins for music application Spotify 
+
+Measuring latency on each Bluetooth connected device 
+
+Interpret input audio for mixing and separation to different speakers 
+
+## Team Members and Responsibilities
+
+Eric Miller – Development Role - Front End Development - Tester 
+
+Samuel Ishida – Development Role – Back End Development - Tester 
+
+Dylan Leonard – Security Role, Team Manager, Research 
+
+Zongyu Xu – Security Role, Research 
+
+Karthikeya Thota – Security Role, Research 
+
+## Project Scope
+
+We will create the application name WAM that enables users to connect and interact with multiple devices. Our design goals include developing reliable connectivity mechanisms that allow applications to connect to a variety of devices. Facilitates the exchange of data between connected devices, supporting various data types such as text, files, images and multimedia. Design an intuitive and user-friendly interface to simplify device discovery, connection management, and data sharing. Implement robust security measures to protect data transmission, user privacy, and prevent unauthorized access to connected devices. As much as possible, make sure the app is compatible with major operating systems, including Windows, Android, and iOS.  
+
+For our application we will plan to do project Initiation (define project, scope, and team role, Research and Planning (Research device communication protocols and technologies and create detailed project plan), Development (coding, design elements, and focus on security, Testing and Quality Assurance. 
+
+## Technologies Used
+
+The technologies we will use for our application include the following: 1. wireless communication protocol such as Bluetooth or Wi-Fi. 2. Audio streaming protocol is to transmit audio data between devices. 3. Device Discovery is implementing a method for discovering and pairing with available devices. 4. Security ensures secure communication and data privacy, especially if our application deals with personal audio content. 5. User Interface, we will create a user-friendly interface for users to discover, connect, and control multiple speakers. 6. Testing and Quality Assurance, at the last step we will test our application to ensure that it is maintained across various devices and network conditions.  
+
+## Ethical and Legal Considerations 
+
+The development of any technology, including the project outlined in the senior design contract, must take ethical and legal issues into account. Here, we'll identify a few potential moral and legal conundrums and talk about solutions: 
+
+### Ethics-Related Matters: 
+Concerns about privacy and data security are raised by the possibility that user data would be collected and stored as part of the project. Users provide us with their personal information when they connect their Bluetooth devices to our app. Their location, the devices they are using, and their audio preferences might all be included in this information. Customer data must be protected and only used for what it was meant for. Put effective data protection and encryption measures in place. 
+
+Security: Because Bluetooth is a wireless technology, it is open to hacking. You must take precautions to secure your app and prevent unwanted access to user data. 
+
+Transparency: Users should be made aware of the purposes for which their data will be used and given the choice to agree or object. To earn users' trust, data collection and use must be transparent. 
+
+Bias and Fairness: It's crucial to make sure that any audio preferences—such as bass and treble—can be adjusted in the application without bias or prejudice. User preferences should be taken into account when making audio modifications rather than any demographic considerations. 
+
+Consider accessibility for all users, including those with disabilities, to promote inclusivity. Make sure the application is created with a varied variety of users in mind and is accessible to them. 
+
+User Consent: Before connecting to users' Bluetooth devices, make sure that they have given their clear, informed consent. Users ought to have control over who has access to their data, what devices are connected, and how it is used. 
+
+Test the application frequently with a variety of users and collect their comments. According to moral principles, you ought to use this criticism to enhance the product and fix any problems that surface. 
+
+### Legal Concerns: 
+Data protection regulations Whenever necessary, abide by data protection rules including the California Consumer Privacy Act (CCPA) and the General Data Protection Regulation (GDPR). These regulations control the gathering, storing, and processing of user data. 
+
+Intellectual Property: Honor the rights to intellectual property. Make sure we have the authority to utilize any software or third-party technology incorporated into the application. 
+
+Check the application's compliance with Bluetooth's specs and standards. Legal problems could result from non-compliance. 
+
+Draft clear and thorough terms of service and privacy policies that describe how user data will be used, users' rights and obligations, and the company's liabilities. 
+
+Security Rules: Comply with cybersecurity rules and guidelines to guard user data from hacks and breaches. 
+
+Comply with accessibility laws, such as the Americans with impairments Act (ADA), to make sure that people with impairments can access the application. 
 
 
-When you’re done, scroll down to the `Commit changes` section near the bottom of the edit page. Add a short message explaining your change, like "Add my introduction", then click `Commit changes`.
+### To address these moral and legal issues: 
+Conduct extensive research to stay current on applicable legislation and moral principles. 
 
+Work together with legal professionals to guarantee adherence to all relevant laws. 
 
-<img width="1030" alt="add-my-username" src="https://user-images.githubusercontent.com/18093541/63131801-efbd5480-bf8c-11e9-9806-89273f027d16.png">
+Create and put into place effective data security and protection procedures. 
 
-Once you click `Commit changes`, your changes will automatically be published on your GitHub Pages website. Refresh the page to see your new changes live in action.
+Encourage development of our team to make ethical decisions in all circumstances. 
 
-:tada: You just made your first commit! :tada:
+Keep users informed and involved so they can decide how to use the program and how their data is used. 
 
-## Extra Credit: Keep on building!
+## Team Rules
 
-Change the placeholder Octocat gif on your GitHub Pages website by [creating your own personal Octocat emoji](https://myoctocat.com/build-your-octocat/) or [choose a different Octocat gif from our logo library here](https://octodex.github.com/). Add that image to line 12 of your `index.html` file, in place of the `<img src=` link.
+The following are rules that have been set forth by and to be upheld by each member of the project team.  The enforcement of the rules will be done by the team members who will raise these issues with the team and ultimately the instructors if further actions is needed. 
 
-Want to add even more code and fun styles to your GitHub Pages website? [Follow these instructions](https://github.com/github/personal-website) to build a fully-fledged static website.
+- Plagiarism will not be tolerated. Any team member that plagiarizes will be subject to university policies and a team meeting will be called. 
 
-![octocat](./images/create-octocat.png)
+- Each team member will stay current on their tasks to ensure the project milestones are being met. If an event conflicts that will affect the completion of a deliverable, the team member will notify the other team members at least 24 hours in advance of the scheduled due date. 
 
-## Everything you need to know about GitHub
+- If a group member will be absent on class days or for an extended period of time, they will notify the other team members and the instructors. 
 
-Getting started is the hardest part. If there’s anything you’d like to know as you get started with GitHub, try searching [GitHub Help](https://help.github.com). Our documentation has tutorials on everything from changing your repository settings to configuring GitHub from your command line.
+- Team members are expected to respond to group messages that prompt such response within 24 hours of receiving the message unless there is a previously discussed justification. 
+
+- Each team member is expected to independently research issues that they encounter or bring the issues to the group to assign out the research to another group member. 
+
+- For conflict resolution the group members are expected to bring the issue to the rest of the group to deliberate upon the outcome. 
+
+- If any member of the group feels uncomfortable or unsure of anything they should address the issue with the rest of the group, or at least the group manager to resolve this issue, reaching out to instructors if needed. 
+
+- Work done on any project tasks will be reviewed by at least one other group member before finalizing the deliverable. 
