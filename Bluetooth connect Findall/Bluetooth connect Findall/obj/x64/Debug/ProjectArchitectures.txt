@@ -1,0 +1,1 @@
+C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Bluetooth connect Findall.csproj;x64

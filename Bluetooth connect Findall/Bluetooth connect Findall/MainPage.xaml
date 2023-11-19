@@ -10,9 +10,7 @@
 
     <Grid>
         <Button Content="Load Paired Devices" Click="LoadPairedDevicesButton_Click"/>
-
-        <!-- Add a ListView with the name "PairedDevicesListView" -->
-        <ListView x:Name="PairedDevicesListView">
+        <ListView x:Name="PairedDevicesListView" SelectionChanged="PairedDevicesListView_SelectionChanged">
             <!-- Define the appearance of each item in the list -->
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -25,5 +23,6 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <Button Content="Connect" Click="ConnectButton_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,20"/>
     </Grid>
 </Page>
