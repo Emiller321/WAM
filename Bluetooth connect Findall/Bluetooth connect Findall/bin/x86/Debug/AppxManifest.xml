@@ -32,6 +32,7 @@
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
+    <DeviceCapability Name="bluetooth" />
   </Capabilities>
   <Extensions>
     <Extension Category="windows.activatableClass.inProcessServer">
@@ -51,6 +52,6 @@
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="0.0.0.0" />
-    <build:Item Name="MakePri.exe" Version="10.0.22621.1778 (WinBuild.160101.0800)" />
+    <build:Item Name="MakePri.exe" Version="10.0.22621.2428 (WinBuild.160101.0800)" />
   </build:Metadata>
 </Package>

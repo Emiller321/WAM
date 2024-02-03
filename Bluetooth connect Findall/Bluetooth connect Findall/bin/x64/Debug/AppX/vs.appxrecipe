@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>02f37a77-f340-4de0-9ff9-e32f4870e747</PackageIdentityName>
     <PackageIdentityPublisher>CN=dylan</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>0C7420AEF2CE2120ACBECCB1B4F4C47B8A76C3BFC4259841ECE4EF0FA80ED2C4</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>D369FDEF7EC23788F20356838C3CDA643BA4C498FE648FAB5193199E77DBD6F4</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>02f37a77-f340-4de0-9ff9-e32f4870e747_1.0.0.0_x64__hn21bjsn166w6</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>02f37a77-f340-4de0-9ff9-e32f4870e747_hn21bjsn166w6!App</RegisteredUserModeAppID>
     <RegisteredPackageID>02f37a77-f340-4de0-9ff9-e32f4870e747</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T22:46:57.712</Modified>
+      <Modified>2024-02-03T04:13:33.249</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Bluetooth connect Findall.exe">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Bluetooth connect Findall.exe">
       <PackagePath>entrypoint\Bluetooth connect Findall.exe</PackagePath>
-      <Modified>2023-11-19T22:46:56.889</Modified>
+      <Modified>2024-02-03T04:13:32.251</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -44,69 +44,73 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.22621.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2023-05-12T04:54:58.000</Modified>
+      <Modified>2023-09-30T07:17:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2023-11-19T21:01:22.689</Modified>
+      <Modified>2024-02-03T02:58:10.834</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2023-11-19T21:01:22.686</Modified>
+      <Modified>2024-02-03T02:58:01.663</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T21:01:22.686</Modified>
+      <Modified>2024-02-03T02:58:01.679</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T21:01:22.687</Modified>
+      <Modified>2024-02-03T02:58:01.694</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T21:01:22.687</Modified>
+      <Modified>2024-02-03T02:58:01.710</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T21:01:22.688</Modified>
+      <Modified>2024-02-03T02:58:01.726</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T21:01:22.688</Modified>
+      <Modified>2024-02-03T02:58:01.742</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T21:01:22.688</Modified>
+      <Modified>2024-02-03T02:58:01.757</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Bluetooth connect Findall.xr.xml">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Bluetooth connect Findall.xr.xml">
       <PackagePath>Bluetooth connect Findall.xr.xml</PackagePath>
-      <Modified>2023-11-19T22:46:56.754</Modified>
+      <Modified>2024-02-03T03:52:04.897</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-11-19T22:46:56.781</Modified>
+      <Modified>2024-02-03T04:13:32.087</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\AudioPlayerPage.xbf">
+      <PackagePath>AudioPlayerPage.xbf</PackagePath>
+      <Modified>2024-02-03T04:13:32.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-11-19T22:46:56.781</Modified>
+      <Modified>2024-02-03T04:13:32.087</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2023-05-12T07:38:22.000</Modified>
+      <Modified>2023-09-30T10:03:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-11-19T21:02:15.391</Modified>
+      <Modified>2024-02-03T03:18:14.959</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Core\Bluetooth connect Findall.exe">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Core\Bluetooth connect Findall.exe">
       <PackagePath>Bluetooth connect Findall.exe</PackagePath>
-      <Modified>2023-11-19T22:46:57.708</Modified>
+      <Modified>2024-02-03T04:13:33.223</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

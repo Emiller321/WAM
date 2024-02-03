@@ -1,1 +1,1 @@
-C:\Users\dylan\source\repos\Bluetooth connect Findall\Bluetooth connect Findall\Bluetooth connect Findall.csproj;x86
+C:\Users\eldmi\source\repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Bluetooth connect Findall.csproj;x86

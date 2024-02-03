@@ -10,22 +10,22 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>02f37a77-f340-4de0-9ff9-e32f4870e747</PackageIdentityName>
     <PackageIdentityPublisher>CN=dylan</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Bluetooth connect Findall.exe">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Bluetooth connect Findall.exe">
       <PackagePath>entrypoint\Bluetooth connect Findall.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
@@ -34,52 +34,55 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.22621.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Bluetooth connect Findall.xr.xml">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Bluetooth connect Findall.xr.xml">
       <PackagePath>Bluetooth connect Findall.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\AudioPlayerPage.xbf">
+      <PackagePath>AudioPlayerPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Core\Bluetooth connect Findall.exe">
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Core\Bluetooth connect Findall.exe">
       <PackagePath>Bluetooth connect Findall.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

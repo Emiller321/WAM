@@ -31,7 +31,13 @@
     </Application>
   </Applications>
   <Capabilities>
-    <Capability Name="internetClient" />
+    <!-- ... other capabilities ... -->
+    <DeviceCapability Name="bluetooth" />
+    <DeviceCapability Name="bluetooth.rfcomm">
+      <Device Id="any">
+        <Function Type="name:serialPort" />
+      </Device>
+    </DeviceCapability>
   </Capabilities>
   <Extensions>
     <Extension Category="windows.activatableClass.inProcessServer">
@@ -46,11 +52,11 @@
     <build:Item Name="VisualStudio" Version="17.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2022" />
     <build:Item Name="OperatingSystem" Version="10.0.22621.1 (WinBuild.160101.0800)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.7.37448.19231" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.8.37317.37065" />
     <build:Item Name="ProjectGUID" Value="{0DFDE5B8-337C-40EC-9B7F-F4B9BA5D4DD2}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="0.0.0.0" />
-    <build:Item Name="MakePri.exe" Version="10.0.22621.1778 (WinBuild.160101.0800)" />
+    <build:Item Name="MakePri.exe" Version="10.0.22621.2428 (WinBuild.160101.0800)" />
   </build:Metadata>
 </Package>

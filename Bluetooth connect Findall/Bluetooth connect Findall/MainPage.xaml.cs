@@ -22,15 +22,15 @@ using Windows.Security.Cryptography;
 using System.Drawing;
 using Windows.Media.Core;
 using Windows.Media.Playback;
-using System.Diagnostics;
 using Windows.Devices.Bluetooth.Rfcomm;
-using Windows.Storage;
+using System.Diagnostics;
 using Windows.UI.Popups;
+using Windows.Storage;
+using Windows.System;
+using Bluetooth_connect_Findall;
 
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
-
-namespace Bluetooth_connect_Findall
+namespace Bluetooth
 {
     public sealed partial class MainPage : Page
     {
@@ -44,7 +44,35 @@ namespace Bluetooth_connect_Findall
             this.InitializeComponent();
             LoadPairedDevicesAsync();
 
+            //MyNavigationView.ItemInvoked += OnNavigationViewItemInvoked;
+            //contentFrame.Navigate(typeof(MainPage));
         }
+
+        private void OnNavigationViewItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)
+        {
+            if (args.IsSettingsInvoked)
+            {
+                // Handle settings navigation if needed
+            }
+            else
+            {
+                // Handle regular item navigation
+                string tag = args.InvokedItemContainer.Tag.ToString();
+
+                switch (tag)
+                {
+                    case "Home":
+                        // Navigate to the main page
+                        contentFrame.Navigate(typeof(MainPage));
+                        break;
+                    case "Audio Player Page":
+                        // Navigate to the second page
+                        contentFrame.Navigate(typeof(AudioPlayer));
+                        break;
+                }
+            }
+        }
+
         private Guid GetStoredUUID()
         {
             if (ApplicationData.Current.LocalSettings.Values.TryGetValue("StoredUUID", out object storedValue))
@@ -160,6 +188,24 @@ namespace Bluetooth_connect_Findall
 
             // Notify the UI that the collection has changed
             PairedDevicesListView.ItemsSource = PairedDevices;
+        }
+        private async void LoadVirtualAudioCableAsync()
+        {
+            // Replace "externalAppFile.txt" with the file you want to open
+            var file = await Windows.Storage.ApplicationData.Current.LocalFolder.CreateFileAsync("vrtaucbl.sys", Windows.Storage.CreationCollisionOption.ReplaceExisting);
+
+            // Launch the default app associated with the file
+            var success = await Windows.System.Launcher.LaunchFileAsync(file);
+
+            if (!success)
+            {
+                ShowErrorMessage("Could not access Virtual Audio Cable Software");
+            }
+        }
+
+        private void LoadVirtualAudioCable_Click(object sender, RoutedEventArgs e)
+        {
+            LoadVirtualAudioCableAsync();
         }
         private void LoadPairedDevicesButton_Click(object sender, RoutedEventArgs e)
         {
