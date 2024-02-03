@@ -43,9 +43,8 @@ namespace Bluetooth
         {
             this.InitializeComponent();
             LoadPairedDevicesAsync();
-
-            //MyNavigationView.ItemInvoked += OnNavigationViewItemInvoked;
-            //contentFrame.Navigate(typeof(MainPage));
+            MyNavigationView.ItemInvoked += OnNavigationViewItemInvoked;
+            contentFrame.Navigate(typeof(MainPage));
         }
 
         private void OnNavigationViewItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)

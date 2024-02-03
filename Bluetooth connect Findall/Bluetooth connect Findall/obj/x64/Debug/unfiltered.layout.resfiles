@@ -10,4 +10,5 @@ App.xbf
 AudioPlayerPage.xbf
 Bluetooth connect Findall.xr.xml
 MainPage.xbf
+Microsoft.UI.Xaml\DensityStyles\Compact.xbf
 Properties\Default.rd.xml
