@@ -43,3 +43,49 @@ C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Find
 C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\ProjectArchitectures.txt
 C:\Users\sammy\Source\Repos\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_638194640980000000.json
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\App.xbf
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\MainPage.xbf
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Bluetooth connect Findall.xr.xml
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Bluetooth connect Findall.exe
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Bluetooth connect Findall.pdb
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\resources.pri
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\AppxManifest.xml
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Core\Bluetooth connect Findall.exe
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Bluetooth connect Findall.build.appxrecipe
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\System.Runtime.dll
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\Bluetooth connect Findall.csproj.AssemblyReference.cache
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\App.g.i.cs
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\App.g.cs
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\MainPage.g.cs
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\App.xaml
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\MainPage.xaml
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\App.xbf
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\MainPage.xbf
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\Bluetooth connect Findall.csproj.CoreCompileInputs.cache
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\Bluetooth connect Findall.csproj.CopyComplete
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\Bluetooth connect Findall.exe
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\Bluetooth connect Findall.pdb
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\priconfig.xml
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\resources.resfiles
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\pri.resfiles
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\qualifiers.txt
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_638194640980000000.json
+C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_638316550480000000.json

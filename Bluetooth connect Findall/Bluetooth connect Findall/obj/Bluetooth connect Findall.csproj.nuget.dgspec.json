@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sammy\\Source\\Repos\\WAM\\Bluetooth connect Findall\\Bluetooth connect Findall\\Bluetooth connect Findall.csproj": {}
+    "C:\\Users\\sammy\\Documents\\GitHub\\WAM\\Bluetooth connect Findall\\Bluetooth connect Findall\\Bluetooth connect Findall.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sammy\\Source\\Repos\\WAM\\Bluetooth connect Findall\\Bluetooth connect Findall\\Bluetooth connect Findall.csproj": {
+    "C:\\Users\\sammy\\Documents\\GitHub\\WAM\\Bluetooth connect Findall\\Bluetooth connect Findall\\Bluetooth connect Findall.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sammy\\Source\\Repos\\WAM\\Bluetooth connect Findall\\Bluetooth connect Findall\\Bluetooth connect Findall.csproj",
+        "projectUniqueName": "C:\\Users\\sammy\\Documents\\GitHub\\WAM\\Bluetooth connect Findall\\Bluetooth connect Findall\\Bluetooth connect Findall.csproj",
         "projectName": "Bluetooth connect Findall",
-        "projectPath": "C:\\Users\\sammy\\Source\\Repos\\WAM\\Bluetooth connect Findall\\Bluetooth connect Findall\\Bluetooth connect Findall.csproj",
+        "projectPath": "C:\\Users\\sammy\\Documents\\GitHub\\WAM\\Bluetooth connect Findall\\Bluetooth connect Findall\\Bluetooth connect Findall.csproj",
         "packagesPath": "C:\\Users\\sammy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sammy\\Source\\Repos\\WAM\\Bluetooth connect Findall\\Bluetooth connect Findall\\obj\\",
+        "outputPath": "C:\\Users\\sammy\\Documents\\GitHub\\WAM\\Bluetooth connect Findall\\Bluetooth connect Findall\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

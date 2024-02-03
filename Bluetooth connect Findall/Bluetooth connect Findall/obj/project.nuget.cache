@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mDOVa8UYmHWWlCOflJnkR8R7tIu6A5AWk2Kdp4Lrm1S8rDf3JQX9x0rLt5ScIvO98uZ452lBlqZ6pbCMjciWEg==",
+  "dgSpecHash": "gbLU9NOM9MGvXVCXxZIvs4uGUF4UcF67DbuFgaxFHCy1kbyQ79srEuF+juJUGk8nGHTwJIW7bmyb9HtpuiHYdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sammy\\Source\\Repos\\WAM\\Bluetooth connect Findall\\Bluetooth connect Findall\\Bluetooth connect Findall.csproj",
+  "projectFilePath": "C:\\Users\\sammy\\Documents\\GitHub\\WAM\\Bluetooth connect Findall\\Bluetooth connect Findall\\Bluetooth connect Findall.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.12-rel-31116-00\\microsoft.net.native.compiler.2.2.12-rel-31116-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.14\\microsoft.net.uwpcoreruntimesdk.2.2.14.nupkg.sha512",
