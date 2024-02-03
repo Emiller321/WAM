@@ -9,12 +9,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
         <NavigationView x:ConnectionId='2' x:Name="MyNavigationView" PaneDisplayMode="Top"                                           >
             <!-- Content for the top bar/header -->
             <NavigationView.MenuItems>
                 <NavigationViewItem Content="Home" Icon="Home" Tag="MainPage"/>
                 <NavigationViewItem Content="Audio Player" Icon="Audio" Tag="AudioPlayerPage" />
-                <Frame x:ConnectionId='6' x:Name="contentFrame"/>
             </NavigationView.MenuItems>
             <!-- Content for the navigation pane -->
             <NavigationView.PaneHeader>
@@ -37,9 +40,10 @@
                 </ListView.ItemTemplate>
             </ListView>
         </NavigationView>
-        <Button x:ConnectionId='3' Content="Connect to VAC"                                     Margin="180,592,0,0" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='4' Content="Load Paired Devices"                                       VerticalAlignment="Bottom" Margin="10,0,0,377"/>
-        <Button x:ConnectionId='5' Content="Connect"                             HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,20"/>
+        <Frame x:ConnectionId='3' x:Name="contentFrame" Grid.Row="1"/>
+        <Button x:ConnectionId='4' Content="Connect to VAC"                                     Margin="180,592,0,0" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='5' Content="Load Paired Devices"                                       VerticalAlignment="Bottom" Margin="10,0,0,377"/>
+        <Button x:ConnectionId='6' Content="Connect"                             HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,20"/>
     </Grid>
 </Page>
 

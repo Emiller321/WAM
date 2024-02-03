@@ -9,12 +9,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
         <NavigationView x:Name="MyNavigationView" PaneDisplayMode="Top" ItemInvoked="OnNavigationViewItemInvoked" >
             <!-- Content for the top bar/header -->
             <NavigationView.MenuItems>
                 <NavigationViewItem Content="Home" Icon="Home" Tag="MainPage"/>
                 <NavigationViewItem Content="Audio Player" Icon="Audio" Tag="AudioPlayerPage" />
-                <Frame x:Name="contentFrame"/>
             </NavigationView.MenuItems>
             <!-- Content for the navigation pane -->
             <NavigationView.PaneHeader>
@@ -37,6 +40,7 @@
                 </ListView.ItemTemplate>
             </ListView>
         </NavigationView>
+        <Frame x:Name="contentFrame" Grid.Row="1"/>
         <Button Content="Connect to VAC" Click="LoadVirtualAudioCable_Click" Margin="180,592,0,0" VerticalAlignment="Top"/>
         <Button Content="Load Paired Devices" Click="LoadPairedDevicesButton_Click" VerticalAlignment="Bottom" Margin="10,0,0,377"/>
         <Button Content="Connect" Click="ConnectButton_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,20"/>
