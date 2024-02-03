@@ -31,7 +31,13 @@
     </Application>
   </Applications>
   <Capabilities>
-    <Capability Name="internetClient" />
+    <!-- ... other capabilities ... -->
+    <DeviceCapability Name="bluetooth" />
+    <DeviceCapability Name="bluetooth.rfcomm">
+      <Device Id="any">
+        <Function Type="name:serialPort" />
+      </Device>
+    </DeviceCapability>
   </Capabilities>
   <Extensions>
     <Extension Category="windows.activatableClass.inProcessServer">

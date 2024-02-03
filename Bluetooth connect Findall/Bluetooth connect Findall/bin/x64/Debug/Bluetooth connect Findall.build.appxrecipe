@@ -70,6 +70,9 @@
     <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\AudioPlayerPage.xbf">
+      <PackagePath>AudioPlayerPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sammy\Documents\GitHub\WAM\Bluetooth connect Findall\Bluetooth connect Findall\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>

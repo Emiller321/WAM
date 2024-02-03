@@ -1,28 +1,44 @@
 ﻿<Page
-    x:Class="Bluetooth_connect_Findall.MainPage"
+    x:Class="Bluetooth.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:Bluetooth_connect_Findall"
+    xmlns:local="using:Bluetooth"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button Content="Load Paired Devices" Click="LoadPairedDevicesButton_Click"/>
-        <ListView x:Name="PairedDevicesListView" SelectionChanged="PairedDevicesListView_SelectionChanged">
-            <!-- Define the appearance of each item in the list -->
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <!-- Your item template here -->
-                    <StackPanel Orientation="Horizontal" Margin="5">
-                        <TextBlock Text="{Binding Name}" FontWeight="Bold" />
-                        <TextBlock Text=" | " />
-                        <TextBlock Text="{Binding Id}" />
-                    </StackPanel>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+        <NavigationView x:Name="MyNavigationView" PaneDisplayMode="Top" ItemInvoked="OnNavigationViewItemInvoked" >
+            <!-- Content for the top bar/header -->
+            <NavigationView.MenuItems>
+                <NavigationViewItem Content="Home" Icon="Home" Tag="MainPage"/>
+                <NavigationViewItem Content="Audio Player" Icon="Audio" Tag="AudioPlayerPage" />
+                <Frame x:Name="contentFrame"/>
+            </NavigationView.MenuItems>
+            <!-- Content for the navigation pane -->
+            <NavigationView.PaneHeader>
+                <!-- Content that will be displayed in the top pane -->
+                <StackPanel>
+                    <TextBlock Text="WAM" Style="{ThemeResource TitleTextBlockStyle}" />
+                </StackPanel>
+            </NavigationView.PaneHeader>
+            <ListView x:Name="PairedDevicesListView" SelectionChanged="PairedDevicesListView_SelectionChanged" Margin="10,58,750,426">
+                <!-- Define the appearance of each item in the list -->
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <!-- Your item template here -->
+                        <StackPanel Orientation="Horizontal" Margin="5">
+                            <TextBlock Text="{Binding Name}" FontWeight="Bold" />
+                            <TextBlock Text=" | " />
+                            <TextBlock Text="{Binding Id}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </NavigationView>
+        <Button Content="Connect to VAC" Click="LoadVirtualAudioCable_Click" Margin="180,592,0,0" VerticalAlignment="Top"/>
+        <Button Content="Load Paired Devices" Click="LoadPairedDevicesButton_Click" VerticalAlignment="Bottom" Margin="10,0,0,377"/>
         <Button Content="Connect" Click="ConnectButton_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,20"/>
     </Grid>
 </Page>
